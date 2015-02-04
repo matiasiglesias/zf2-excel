@@ -48,9 +48,11 @@ As dependências já serão resolvidas com a utilização do composer
 ```php
 	 'modules' => array(
 		...
-		'PHPExcel',
+		'ZF2Excel',
 	)
 ```
 * até o momento nenhuma carteira implementara
 
 ## Utilização
+
+[PHPExcel Examples](http://phpexcel.codeplex.com/wikipage?title=Examples&referringTitle=Home)

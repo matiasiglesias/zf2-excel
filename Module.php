@@ -17,10 +17,16 @@ class Module {
     }
 
     public function getAutoloaderConfig() {
+        /** PHPExcel root directory */
+        if (!defined('PHPEXCEL_ROOT')) {
+            define('PHPEXCEL_ROOT', dirname(__FILE__) . '/src/');
+            require(PHPEXCEL_ROOT . 'PHPExcel/Autoloader.php');
+        }
+        
         return array(
             'Zend\Loader\StandardAutoloader' => array(
                 'namespaces' => array(
-                    __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
+                    __NAMESPACE__ => __DIR__ . '/src/',
                 ),
             ),
         );

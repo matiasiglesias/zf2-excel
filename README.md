@@ -1,6 +1,9 @@
 # ZF2Excel
 ==========
 
+## Forked
+Forked from [adaoex/zf2-excel](https://github.com/adaoex/zf2-excel) only to fix a [compatibility issue](https://github.com/PHPOffice/PHPExcel/issues/1296)
+
 ZF2Excel, módulo para manipulação de arquivos  baseado no projeto PHPExcel (http://www.codeplex.com/PHPExcel)
 PHPExcel - OpenXML - ler, escrever e criar documentos do Excel em PHP - motor Spreadsheet;
 
